@@ -17,7 +17,7 @@ def main():
             x = float(input('Primeiro número: '))
             operator = input('Operador: ')
             if operator not in ['+', '-', '/', '*']:
-                print('Operadores válidos: + | - | * | /')
+                print('Error: Operador inválido. Utilize: + | - | * | /')
                 continue
             y = float(input('Segundo número: '))
 
